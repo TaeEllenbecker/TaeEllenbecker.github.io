@@ -22,7 +22,13 @@ body{
     flex-direction: column;
 }
 
+
+
+
+
+
 /* NAVBAR */
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -49,6 +55,9 @@ body{
     background-color: #597a71;
     border-radius: 50px;
 }
+
+
+
 
 /* LANDING */
 .landing{
