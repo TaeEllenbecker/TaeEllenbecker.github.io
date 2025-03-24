@@ -22,12 +22,18 @@ body{
     flex-direction: column;
 }
 
+.align{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
 /* NAVBAR */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    
 }
 
 .nav-links {
@@ -46,8 +52,10 @@ body{
     justify-content: right;
     text-decoration: none;
     align-items: center;
-    
-
+}
+.navsocials a:hover{
+    color: #597a71;
+    transition: color .3s ease;
 }
 
 .nav-links li a {
@@ -73,11 +81,14 @@ body{
     display: flex;
     justify-content: left;
     flex:1;
-    margin-left: 20px;
     align-items: center;
 }
 .about h1{
+<<<<<<< HEAD
     font-size: 1.5rem;
+=======
+    font-size: 2rem;
+>>>>>>> 1b2f14c8f5c426fc0aa3746ee11cc106b2e865b1
     text-align: left;
     margin-left: 20px;
     color:white;
@@ -85,7 +96,11 @@ body{
 }
 
 .about p{
+<<<<<<< HEAD
     font-size: 1.5rem;
+=======
+    font-size: 2rem;
+>>>>>>> 1b2f14c8f5c426fc0aa3746ee11cc106b2e865b1
     text-align: left;
     margin: 0 auto;
     padding: 20px;
