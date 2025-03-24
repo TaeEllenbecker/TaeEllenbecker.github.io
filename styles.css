@@ -9,7 +9,7 @@ body, ul {
     list-style: none;
 }
 html{
-    background-color: #161616;
+    background-color: black;
 }
 html, body {
     height: 100%;
@@ -60,7 +60,6 @@ body{
 
 .nav-links li a {
     display: flex;
-    background-color: #2c2c2c;
     border-radius: 50px;
     color: white;
     text-decoration: none;
@@ -85,7 +84,11 @@ body{
     align-items: center;
 }
 .about h1{
+<<<<<<< HEAD
+    font-size: 1.5rem;
+=======
     font-size: 2rem;
+>>>>>>> 1b2f14c8f5c426fc0aa3746ee11cc106b2e865b1
     text-align: left;
     margin-left: 20px;
     color:white;
@@ -93,7 +96,11 @@ body{
 }
 
 .about p{
+<<<<<<< HEAD
+    font-size: 1.5rem;
+=======
     font-size: 2rem;
+>>>>>>> 1b2f14c8f5c426fc0aa3746ee11cc106b2e865b1
     text-align: left;
     margin: 0 auto;
     padding: 20px;
@@ -114,44 +121,32 @@ body{
     transition: color .3s ease;
 }
 
-
-
-
-
-/* Image on LANDING */
-.myimage{
-    padding: 2rem;
+.skills_exp{
+    display: flex;
+    flex:1;
+    background-color: blue;
+    
+    align-items: center;
 }
 
-.myimage img{
-    width : 275px;
-    height : auto;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    border: #2c2c2c solid 8px;
-}
+
+
 
 /* FOOTER */
 footer {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    background-color: #2c2c2c;
-    height: 25px;
+    height: .5rem;
 }
-
-footer a {
+footer p{
     color: white;
     margin: 0 10px;
-    font-size: 1.5rem;
+    font-size: .6rem;
     text-decoration: none;
     transition: color .3s ease;
 }
 
-footer a:hover {
-    color: #597a71;
-}
 
 /* MOBILE VIEW */
 /* Changes nav bar when screeen is smaller */
