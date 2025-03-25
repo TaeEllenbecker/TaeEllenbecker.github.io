@@ -46,8 +46,9 @@ body{
 .navsocials a{
     color: white;
     display: flex;
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-left: 10px;
+    margin-right: 1rem;
     justify-content: right;
     text-decoration: none;
     align-items: center;
@@ -86,25 +87,23 @@ body{
     font-size: 1.5rem;
     font-size: 2rem;
     text-align: left;
-    margin-left: 20px;
     color:white;
     max-width: 700px;
 }
 
 .about p{
-    font-size: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-align: left;
-    margin: 0 auto;
-    padding: 20px;
+    padding-top: 20px;
     color:white;
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .socials{
     display: flex;
     justify-content: left;
-    margin-left: 20px;
+    color: white;
+    padding-top: 1rem;
 }
 .socials a{
     color: white;
@@ -113,6 +112,24 @@ body{
     text-decoration: none;
     transition: color .3s ease;
 }
+
+.skills{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+.skills i{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+#skillsExp{
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* FOOTER */
 footer {
@@ -128,7 +145,6 @@ footer p{
     text-decoration: none;
     transition: color .3s ease;
 }
-
 
 /* MOBILE VIEW */
 /* Changes nav bar when screeen is smaller */
