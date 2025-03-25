@@ -46,9 +46,8 @@ body{
 .navsocials a{
     color: white;
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 10px;
-    margin-right: 1rem;
     justify-content: right;
     text-decoration: none;
     align-items: center;
@@ -83,7 +82,7 @@ body{
     flex:1;
     align-items: center;
 }
-.about h1{
+.intro h1{
     font-size: 1.5rem;
     font-size: 2rem;
     text-align: left;
@@ -91,14 +90,12 @@ body{
     max-width: 700px;
 }
 
-.about p{
+.intro p{
     font-size: 1.75rem;
-    text-align: left;
-    padding-top: 20px;
+    padding-top: 1rem;
     color:white;
-    max-width: 500px;
+    max-width: 600px;
 }
-
 .socials{
     display: flex;
     justify-content: left;
@@ -115,19 +112,20 @@ body{
 
 .skills{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    color:white;
+    align-items: center;
+    color: white;
+    min-width: 400px;
+}
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
-    padding-top: 20px;
 }
-.skills i{
-    font-size: 2.5rem;
+.skills i {
     padding: 1rem;
-}
-
-#skillsExp{
-    justify-content: center;
-    text-align: center;
 }
 
 
