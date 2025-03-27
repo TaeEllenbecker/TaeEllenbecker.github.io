@@ -81,6 +81,7 @@ body{
     justify-content: left;
     flex:1;
     align-items: center;
+    height: 200vh;
 }
 .intro h1{
     font-size: 1.5rem;
@@ -123,8 +124,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    
 }
+
 .skills i {
     
     padding: 1rem;
@@ -150,14 +151,14 @@ footer p{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #272727;
-    border-radius: 10px;
-    padding: 1rem;
-    margin: 1rem;
-    width: 300px;
-    height: 300px;
+    background-color: #101010;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 275px;
+    height: 400px;
     transition: background .3s ease;
 }
 .card-description{
@@ -166,6 +167,36 @@ footer p{
     justify-content: left;
     flex-direction: column;
     text-align: left;
+}
+.card-description h1{
+    font-size: 1.5rem;
+    
+}
+.card-description p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
+}
+
+.card-skills {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.card-skills p {
+    background-color: #202020;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem .75rem;
+    border-radius: 10px;
+    color: white;
+    font-size: .8rem;
+    max-width: 100%;
 }
 
 /* MOBILE VIEW */
