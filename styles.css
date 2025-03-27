@@ -270,4 +270,20 @@ footer p{
         margin-right: 1rem;
     }
 }
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Slide in from below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+/* Apply the animation */
+.animate-fade-in {
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s ease-out forwards; /* 1s duration, ease-out timing */
+}
