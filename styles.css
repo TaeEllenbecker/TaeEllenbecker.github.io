@@ -77,7 +77,7 @@ body{
 
 /* ABOUT SECTION */
 .about{
-    display: flex;
+    display: inline-flex;
     justify-content: left;
     flex:1;
     align-items: center;
@@ -120,7 +120,7 @@ body{
     min-width: 400px;
 }
 .skills-icons {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -147,13 +147,18 @@ footer p{
     transition: color .3s ease;
 }
 
+.projects{
+    display: inline-flex;
+    
+}
 /* PROJECT SECTION */
 .card{
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    
     background-color: #101010;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-left: 6rem;
     margin-top: 2rem;
@@ -162,7 +167,6 @@ footer p{
     transition: background .3s ease;
 }
 .card-description{
-    display: flex;
     color: white;
     justify-content: left;
     flex-direction: column;
@@ -181,8 +185,7 @@ footer p{
 
 .card-skills {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 0.5rem;
 }
@@ -192,14 +195,37 @@ footer p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem .75rem;
-    border-radius: 10px;
+    padding: 0.3rem .75rem;
+    border-radius: 5px;
     color: white;
     font-weight: 600;
     font-size: .75rem;
     line-height: 1rem;
     max-width: 100%;
 }
+
+.card-links{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 0.5rem;
+    
+}
+.card-links a{
+    background-color: #202020;
+    padding: 0.3rem .75rem;
+    border-radius: 5px;
+    line-height: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: .75rem;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+
 
 /* MOBILE VIEW */
 /* Changes nav bar when screeen is smaller */
