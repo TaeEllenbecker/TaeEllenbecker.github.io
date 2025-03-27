@@ -146,6 +146,28 @@ footer p{
     transition: color .3s ease;
 }
 
+/* PROJECT SECTION */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    height: 300px;
+    transition: background .3s ease;
+}
+.card-description{
+    display: flex;
+    color: white;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+
 /* MOBILE VIEW */
 /* Changes nav bar when screeen is smaller */
 @media (min-width: 300px) and (max-width: 480px)  {
@@ -190,20 +212,3 @@ footer p{
     }
 }
 
-/* Fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px); /* Optional: Slide in from below */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Apply the animation */
-.animate-fade-in {
-    opacity: 0; /* Start hidden */
-    animation: fadeIn 1s ease-out forwards; /* 1s duration, ease-out timing */
-}
