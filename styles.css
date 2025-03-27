@@ -81,6 +81,7 @@ body{
     justify-content: left;
     flex:1;
     align-items: center;
+    height: 200vh;
 }
 .intro h1{
     font-size: 1.5rem;
@@ -123,8 +124,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    
 }
+
 .skills i {
     
     padding: 1rem;
@@ -144,6 +145,60 @@ footer p{
     font-size: .6rem;
     text-decoration: none;
     transition: color .3s ease;
+}
+
+/* PROJECT SECTION */
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 275px;
+    height: 400px;
+    transition: background .3s ease;
+}
+.card-description{
+    display: flex;
+    color: white;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+.card-description h1{
+    font-size: 1.5rem;
+    
+}
+.card-description p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
+}
+
+.card-skills {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.card-skills p {
+    background-color: #202020;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem .75rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1rem;
+    max-width: 100%;
 }
 
 /* MOBILE VIEW */
@@ -190,20 +245,3 @@ footer p{
     }
 }
 
-/* Fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px); /* Optional: Slide in from below */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Apply the animation */
-.animate-fade-in {
-    opacity: 0; /* Start hidden */
-    animation: fadeIn 1s ease-out forwards; /* 1s duration, ease-out timing */
-}
