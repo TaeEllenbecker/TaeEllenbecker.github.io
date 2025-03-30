@@ -10,4 +10,4 @@ Tech Stack: HTML, CSS, Javascript
 
 
 # Lessons Learned:
-Throughout my process of developing this website, I have learned many lessons...
+- To make the CSS more readable and editable, you should define the overall theme in the root
