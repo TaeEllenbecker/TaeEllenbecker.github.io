@@ -25,10 +25,11 @@ body{
     flex-direction: column;
 }
 
-.align{
-    margin-left: 20rem;
-    margin-right: 20rem;
+.align {
+    margin: 0 auto;
+    max-width: 90%;
 }
+
 
 /* NAVBAR */
 .navbar {
@@ -90,7 +91,7 @@ body{
 }
 
 .intro{
-    margin-left: 6rem;
+
     margin-bottom: 1rem;
     text-align: left;
 }
@@ -294,21 +295,3 @@ footer p{
     opacity: 0; /* Start hidden */
     animation: fadeIn 1s ease-out forwards; /* 1s duration, ease-out timing */
 }
-
-
-/* 
-
-.card{
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    background-color: #101010;
-    border-radius: 10px;
-    padding: 1.5rem;
-    margin-left: 6rem;
-    margin-top: 2rem;
-    width: 275px;
-    height: 400px;
-    transition: background .3s ease;
-} */
