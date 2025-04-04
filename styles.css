@@ -20,7 +20,7 @@ html, body {
 }
 
 body{
-    height: 300vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -28,6 +28,12 @@ body{
 .align {
     margin: 0 auto;
     max-width: 90%;
+}
+
+.text-small{
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
 }
 
 
@@ -159,10 +165,16 @@ footer p{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
-    
 }
 
 
+
+.projects{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
 /* Project Card */
 .project-card {
     background-color: #101010;
@@ -202,7 +214,7 @@ footer p{
     border-radius: 5px;
     color: white;
     font-weight: 600;
-    font-size: 0.75rem;
+    font-size: .8rem;
     text-align: center;
 }
 
@@ -220,13 +232,30 @@ footer p{
     border-radius: 5px;
     color: white;
     font-weight: 600;
-    font-size: 0.75rem;
+    font-size: .8rem;
     text-decoration: none;
     transition: background 0.3s ease;
 }
 
 .card-links a:hover {
     background-color: #597a71;
+}
+
+
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr; /* Adjust for smaller screens */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
