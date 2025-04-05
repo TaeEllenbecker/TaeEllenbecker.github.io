@@ -11,3 +11,4 @@ Tech Stack: HTML, CSS, Javascript
 
 # Lessons Learned:
 - To make the CSS more readable and editable, you should define the overall theme in the root
+- Use flexbox for a 1D Design and Grid for a 2D Design
