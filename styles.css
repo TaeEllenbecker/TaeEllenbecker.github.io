@@ -119,10 +119,15 @@ footer p{
     display: grid;
     grid-template-rows: repeat(3,1fr);
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
+
 /* Project Card */
 .project-card {
-    max-width: 800px;
+    max-width: 600px;
+    max-height: 300px;
+    min-height: 300px;
     /* refactor */
     background-color: #101010;
     padding: 1.5rem;
@@ -133,18 +138,16 @@ footer p{
 }
 
 /* Card Description */
-/* refactor can be deleted with no changes*/
-.card-description {
-    text-align: left;
-}
-
-.card-description h1 {
+.card-description h1{
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .card-description p {
-    margin: 1rem 0;
     font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    max-width: 600px;
 }
 
 /* Card Skills */
@@ -153,6 +156,7 @@ footer p{
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
 
 .card-skills p {
     background-color: #202020;
