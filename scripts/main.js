@@ -3,17 +3,15 @@ const formName = document.getElementById('formName');
 const formEmail = document.getElementById('email');
 const formMessage = document.getElementById('message');
 
-let errors = [];
-
-formName.addEventListener('blur', () => {
+function validName(){
     if (formName.value.trim() === '') {
         formName.nextElementSibling.textContent = 'Please type your name';
     } else {
         formName.nextElementSibling.textContent = '';
     }
-});
+}
 
-formEmail.addEventListener('blur', () => {
+function validEmail(){
     if (formEmail.value.trim() === '') {
         formEmail.nextElementSibling.textContent = 'Please type your email';
     } 
@@ -24,12 +22,20 @@ formEmail.addEventListener('blur', () => {
     else{
         formEmail.nextElementSibling.textContent = '';
     }
-});
+}
 
-formMessage.addEventListener('blur', () => {
+function validateMessage() {
     if (formMessage.value.trim() === '') {
         formMessage.nextElementSibling.textContent = 'Please type your message';
     } else {
         formMessage.nextElementSibling.textContent = '';
     }
+}
+
+const submitButton = document.getElementById('submit');
+submitButton.addEventListener('click', (e) => {
+    validName();
+    validEmail();
+    validateMessage();
+    e.preventDefault();
 });
