@@ -212,9 +212,7 @@ footer p{
     margin-bottom: 1rem;
 }
 
-.message-container input,
-.message-container textarea,
-.message-container button {
+.message-container input, .message-container textarea, .message-container button {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ccc;
@@ -222,9 +220,10 @@ footer p{
     box-sizing: border-box;
 }
 
+
 /* Button Styling */
 .message-container button {
-    background-color: var(--background-color); /* Use your theme's background color */
+    background-color: var(--background-color);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -236,6 +235,11 @@ footer p{
     color: var(--background-color);
 }
 
+.error{
+    color: red;
+    font-size: .5rem;
+    font-weight: 600;
+}
 
 /* Fade-in animation */
 @keyframes fadeIn {
