@@ -83,7 +83,7 @@ a{
     grid-template-columns: repeat(4,1fr);
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+
 }
 
 
@@ -271,12 +271,23 @@ footer p{
     animation: fadeIn 1s ease-out forwards; /* 1s duration, ease-out timing */
 }
 
+.rotate-left{
+    transform: rotateZ(-10deg);
+}
+.rotate-right{
+    transform: rotateZ(10deg);
+}
+.tilt-right{
+    transform: rotateZ(5deg);
 
+}
+.tilt-left{
+    transform: rotateZ(-5deg);
+}
 .flip-card {
     background-color: transparent;
     width: 12rem;
     height: 12rem;
-    transform: rotateZ(-10deg);;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     
 }
