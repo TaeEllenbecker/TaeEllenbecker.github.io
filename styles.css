@@ -329,3 +329,7 @@ footer p{
     color: white;
     transform: rotateY(180deg);
   }
+
+  .flip-card-front img {
+    
+  }
