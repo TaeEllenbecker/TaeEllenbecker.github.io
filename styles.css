@@ -342,6 +342,10 @@ footer p{
         justify-content: space-around;
     }
 
+    .animate-fade-in {
+        opacity: none !important;
+        animation: none !important;
+    }   
     .disappear{
         display:none;
     }
