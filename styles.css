@@ -336,6 +336,19 @@ footer p{
     transform: rotateY(180deg);
   }
 
-  .flip-card-front img {
-    
-  }
+@media (max-width: 480px){
+    .image-section{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .disappear{
+        display:none;
+    }
+    .tilt-left{
+        transform: rotateZ(0deg);
+    }
+    .tilt-right{
+        transform: rotateZ(0deg);
+    }
+}
