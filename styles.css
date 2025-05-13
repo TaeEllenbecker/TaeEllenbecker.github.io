@@ -290,6 +290,7 @@ footer p{
 .tilt-left{
     transform: rotateZ(-5deg);
 }
+
 .flip-card {
     background-color: transparent;
     width: 12rem;
@@ -339,20 +340,23 @@ footer p{
 @media (max-width: 480px){
     .image-section{
         display:flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .animate-fade-in {
         opacity: 1;
         animation: none !important;
     }   
+
     .disappear{
         display:none;
     }
-    .tilt-left{
+
+    /* .tilt-left{
         transform: rotateZ(0deg);
     }
+
     .tilt-right{
         transform: rotateZ(0deg);
-    }
+    } */
 }
