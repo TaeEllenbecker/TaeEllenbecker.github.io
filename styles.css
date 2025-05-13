@@ -343,7 +343,7 @@ footer p{
     }
 
     .animate-fade-in {
-        opacity: none !important;
+        opacity: 1;
         animation: none !important;
     }   
     .disappear{
